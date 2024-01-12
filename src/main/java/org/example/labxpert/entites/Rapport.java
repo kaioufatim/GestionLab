@@ -12,7 +12,7 @@ public class Rapport {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String tayperapport;
+    private String typerapport;
     private Date daterapport;
     private double doneestatistique;
 
